@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "unreal-dev-context": {
+      "type": "stdio",
+      "command": "__PYTHON_EXE__",
+      "args": ["-B", "__REPO_ROOT__/tools/unreal-mcp/run.py"]
+    }
+  }
+}

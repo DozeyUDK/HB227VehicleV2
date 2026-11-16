@@ -1,0 +1,46 @@
+# Local Unreal installations and game assets
+/System/
+/System64/
+/SystemLocalized/
+/Maps/
+/Meshes/
+/Music/
+/Sounds/
+/Textures/
+*.unr
+*.uax
+*.umx
+*.usm
+*.utx
+
+# Build output and release archives
+/release/
+/releases/
+**/build/
+*.u
+*.dll
+*.exe
+*.exp
+*.lib
+*.obj
+*.pdb
+*.zip
+*.7z
+
+# Local runtime data and credentials
+/logs/
+*.bak
+*.log
+.env
+.env.*
+*.pem
+*.pfx
+*.key
+
+# Local MCP configuration and Python caches
+/.cursor/mcp.json
+/.codex/config.toml
+/.mcp.json
+.venv/
+__pycache__/
+*.pyc

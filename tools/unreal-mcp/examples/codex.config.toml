@@ -1,0 +1,3 @@
+[mcp_servers.unreal-dev-context]
+command = "__PYTHON_EXE__"
+args = ["-B", "__REPO_ROOT__/tools/unreal-mcp/run.py"]
